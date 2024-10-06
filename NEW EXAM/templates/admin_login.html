@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <!-- Bootstrap CSS -->
+     
+</head>
+<body>
+<div class="header">
+        <img src="../static/images/logo.png" alt="Exam Registration System" class="logo">
+       <h2 style="text-align: center;">Welcome To AKKA UNIVERSITY</h2> 
+       <div class="navigation">
+            <a href="/">Login</a>
+            <a href="/register">Register</a>
+            <a href="/admin_login">Admin</a>
+            <a href="/help">Help</a>
+            <a href="/about">About</a>
+        </div>
+    </div>
+
+
+
+    <div class="login-container">
+        <h1>Admin Login</h1>
+        <form action="/admin_login" method="POST">
+            
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            
+            
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+     
+</body>
+</html>

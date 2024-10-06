@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Exam Registration System</title>
+    <link rel="stylesheet" href="../static/css/styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="header">
+        <img src="../static/images/logo.png" alt="Exam Registration System" class="logo">
+<h2 style="text-align: center;">Welcome To AKKA UNIVERSITY</h2>        
+<div class="navigation">
+            <a href="/">Login</a>
+            <a href="/register">Register</a>
+            <a href="/admin_login">Admin</a>
+            <a href="/help">Help</a>
+            <a href="/about">About</a>
+        </div>
+       
+    </div>
+
+    <div class="login-container">
+        <h1>Sign In</h1>
+        
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br><br>
+            <input type="submit" value="Log In">
+        </form>
+        <div class="register-link">
+            Don't have an account? <a href="/register">Register here</a>
+        </div>
+    </div>
+</body>
+</html>
