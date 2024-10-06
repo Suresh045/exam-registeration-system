@@ -18,18 +18,14 @@ Version Control: Git, GitHub
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/exam-registration-system.git
 Navigate to the project directory:
 
-bash
-Copy code
 cd exam-registration-system
 Install the required dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Set up the database:
 
@@ -37,13 +33,10 @@ Configure your SQL database in settings.py or config.py.
 
 Run database migrations:
 
-bash
-Copy code
 python manage.py migrate
 Start the application:
 
-bash
-Copy code
+
 python manage.py runserver
 Access the system on http://localhost:8000 in your browser.
 
